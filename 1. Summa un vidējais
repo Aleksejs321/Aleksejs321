@@ -1,0 +1,6 @@
+a = int(input("Ievadi pirmo skaitli: "))
+b = int(input("Ievadi otro skaitli: "))
+c = int(input("Ievadi tresa skaitli: "))
+summa = a + b + c
+vidējais = summa / 3
+print(summa)
