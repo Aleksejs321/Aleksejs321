@@ -1,0 +1,9 @@
+a = int(input("Ievadi pirmo skaitli: "))
+b = int(input("Ievadi otro skaitli: "))
+c = int(input("Ievadi treso skaitli: "))
+if a > b and a > c:
+    print(a)
+elif b > a and b > c:
+ print(b)
+else:
+ print(c)
