@@ -1,0 +1,10 @@
+atzimes = [8, 6, 9, 5, 10, 7, 4]
+print(len(atzimes))
+print(sum(atzimes))
+print(sum(atzimes) / len(atzimes))
+print(max(atzimes))
+kol = 0
+for atzime in atzimes:
+    if atzime >= 7:
+        kol = kol + 1
+print(kol)
